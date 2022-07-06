@@ -17,7 +17,9 @@ Description related to Real Estate.
     'application': True,
     'auto_install': False,
     'data': [
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'security/estate_property_views.xml',
+        ''
     ],
 }
 # This data files will be loaded at the installation (commented because file is not added in this example)
