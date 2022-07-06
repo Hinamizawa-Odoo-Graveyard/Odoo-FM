@@ -12,6 +12,11 @@ Description related to Real Estate.
     'category': 'Tools',
     'version': '14.0.1',
     'depends': ['base'],
+    # 'css': ['static/src/css/crm.css'],
+    'installable': True,
+    'application': True,
+    'auto_install': False
+}
     # This data files will be loaded at the installation (commented because file is not added in this example)
     # 'data': [
     #     'views.xml'
