@@ -10,12 +10,13 @@ class estate_property(models.Model):
     _order = "sequence"
 
     name = fields.Char('Estate Name', required=True)
+    description = fields.Text('Description')
     postcode = fields.Char(string="Postcode", required=True)
     date_availability = fields.Date(string="Date Available", required=True)
     expected_price = fields.Float(string="Expected Price", required=True)
     selling_price = fields.Float(string="Selling Price", required=True)
     bedrooms = fields.Integer(string="Bedrooms", required=True)
-    living_area = fields.Float(string="Living Area", required=True)
+    living_area = fields.Integer(string="Living Area", required=True)
     facades = fields.Integer(string="Facades", required=True)
     garage = fields.Boolean(string="Garage", required=True)
     garden = fields.Boolean(string="Garden", required=True)
