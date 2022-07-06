@@ -8,19 +8,20 @@ Manage Estates
 Description related to Real Estate.
     """,  # Supports reStructuredText(RST) format
     'author': "Hinamizawa",
-    'website': "http://www.example.com",
+    'website': "alejandroatacho.github.io",
     'category': 'Tools',
     'version': '14.0.1',
     'depends': ['base'],
     # 'css': ['static/src/css/crm.css'],
     'installable': True,
     'application': True,
-    'auto_install': False
+    'auto_install': False,
+    'data': [
+        'security/ir.model.access.csv'
+    ],
 }
 # This data files will be loaded at the installation (commented because file is not added in this example)
-# 'data': [
-#     'views.xml'
-# ],
+
 # This demo data files will be loaded if db initialize with demo data (commented because file is not added in this example)
 # 'demo': [
 #     'demo.xml'
